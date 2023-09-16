@@ -74,11 +74,12 @@ class run:
 if __name__ == '__main__':
     app = run()
     data_dir = "video_x512/car_w_bg"
+    text_prompt = "a jeep car"
     for im in os.listdir(data_dir):
         if im.endswith(".jpg"):
             print(im)
             im_path = os.path.join(data_dir,im)
             im_name = im.split('.')[0]
-            app.predict(im_path=im_path,text_prompt='a jeep car',name=im_name)
+            app.predict(im_path=im_path,text_prompt=text_prompt,name=im_name)
         
         
