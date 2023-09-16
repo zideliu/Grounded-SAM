@@ -1,0 +1,9 @@
+data/
+__pycache__/
+build/
+*.png
+*.jpg/
+output
+models/
+video_x512
+frame/
