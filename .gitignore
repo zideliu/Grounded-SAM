@@ -4,6 +4,6 @@ build/
 *.png
 *.jpg/
 output
-models/
+*.pth
 video_x512
 frame/
